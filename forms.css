@@ -1,0 +1,68 @@
+*{padding:0%;
+font-weight: bold;
+}
+
+body{
+    background-image: linear-gradient(darkcyan, cadetblue);
+    
+}
+
+.forms{
+    border: 2px solid orangered;
+    padding: 70px;
+    width: 400px;
+    margin: 20px auto;
+    border-radius: 10px;
+
+}
+
+.forms h1{
+    margin-bottom: 50px;
+    color:tan;
+}
+
+.forms input, forms button{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid orchid;
+}
+
+.forms label{
+    color:azure;
+}
+
+#male , #female{
+   accent-color: aquamarine;
+}
+
+
+
+
+.forms button{
+    padding: 10px;
+    color:deepskyblue;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+}
+
+.forms button:hover{
+    background: burlywood;
+    transform: scale(1.1);
+}
+
+.forms a{
+    position: relative;
+    text-decoration: none;
+    transition: red 0.3s ease;
+}
+
+.forms a::after{
+    transition: width 0.3s ease;
+}
+
+.forms a:hover{
+    color:black;
+}
+
+
+
